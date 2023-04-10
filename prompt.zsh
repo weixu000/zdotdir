@@ -1,5 +1,12 @@
-SPACESHIP_TIME_SHOW=true
-SPACESHIP_EXIT_CODE_SHOW=true
-SPACESHIP_USER_SHOW='always'
-SPACESHIP_HOST_SHOW='always'
-source "$ZDOTDIR/spaceship-prompt/spaceship.zsh"
+fpath+=($ZDOTDIR/pure)
+autoload -U promptinit; promptinit
+
+zstyle :prompt:pure:git:stash show yes
+zstyle :prompt:pure:git:fetch only_upstream yes
+
+prompt pure
+PROMPT='%F{white}%T '$PROMPT
+
+PURE_PROMPT_SYMBOL='»'
+PURE_GIT_DOWN_ARROW='↓'
+PURE_GIT_UP_ARROW='↑'
