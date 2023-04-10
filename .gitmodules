@@ -13,3 +13,6 @@
 [submodule "spaceship-prompt"]
 	path = spaceship-prompt
 	url = https://github.com/spaceship-prompt/spaceship-prompt.git
+[submodule "conda-zsh-completion"]
+	path = conda-zsh-completion
+	url = https://github.com/conda-incubator/conda-zsh-completion.git
