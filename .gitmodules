@@ -13,6 +13,3 @@
 [submodule "conda-zsh-completion"]
 	path = conda-zsh-completion
 	url = https://github.com/conda-incubator/conda-zsh-completion.git
-[submodule "pure"]
-	path = pure
-	url = https://github.com/sindresorhus/pure.git
