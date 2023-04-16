@@ -1,6 +1,7 @@
 source $ZDOTDIR/completion.zsh
 source $ZDOTDIR/history.zsh
 source $ZDOTDIR/prompt.zsh
+source $ZDOTDIR/terminal-title.zsh
 source $ZDOTDIR/directory.zsh
 
 # at the end
